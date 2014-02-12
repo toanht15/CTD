@@ -1,11 +1,12 @@
 /* Scanner
  * @copyright (c) 2008, Hedspi, Hanoi University of Technology
  * @author Hoang The Toan
- * @version 1.0
+ * @version 2.0
  */
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "reader.h"
 #include "charcode.h"
