@@ -29,7 +29,7 @@ void skipBlank() {
 
 void skipComment() {
   int st = 0;
-  while ((currentChar != EOF) && (state < 2)) {
+  while ((currentChar != EOF) && (st < 2)) {
     switch (charCodes[currentChar]) {
     case CHAR_TIMES:
       st = 1;
